@@ -1,5 +1,5 @@
 export const pterodactylConfig = {
-  domain: "https://dikzstore.web.id", 
+  domain: "https://panel.dikxzhost.biz.id", 
   apiKey: process.env.PANEL_APIKEY_PRIVATE,
   nests: "5", 
   nestsGame: "2", // ga usah di isi, ga perlu
