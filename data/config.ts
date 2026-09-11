@@ -36,8 +36,8 @@ export const appConfig = {
     ownerId: "",
   },
   mongodb: {
-    uri: process.env.MONGODB_URL, // url mongo mu
-dbName: "dikxz",
+    uri: process.env.MONGODB_URI, // url mongo mu
+dbName: "dikxzstore",
   },
   socialMedia: {
     whatsapp: "https://wa.me/6289513452028",
