@@ -3,6 +3,7 @@ import clientPromise from "@/lib/mongodb"
 import { appConfig } from "@/data/config"
 
 export async function GET() {
+  await connectDB()
   try {
     const client = await clientPromise
     const db = client.db(appConfig.mongodb.dbName)
